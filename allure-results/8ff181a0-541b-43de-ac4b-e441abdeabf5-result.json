@@ -1,0 +1,61 @@
+{
+    "name": "testHomePositive",
+    "start": 1648316965767,
+    "stop": 1648316968393,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "8ff181a0-541b-43de-ac4b-e441abdeabf5",
+    "historyId": "c5693ad1fc9569807c557c9676a970d5",
+    "testCaseId": null,
+    "rerunOf": null,
+    "fullName": "ru.kkuzmichev.simpleappforespresso.Lab1Tests.testHomePositive",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.kkuzmichev.simpleappforespresso"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.kkuzmichev.simpleappforespresso.Lab1Tests"
+        },
+        {
+            "name": "testMethod",
+            "value": "testHomePositive"
+        },
+        {
+            "name": "suite",
+            "value": "ru.kkuzmichev.simpleappforespresso.Lab1Tests"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(339)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "feature",
+            "value": "testHomePositive"
+        }
+    ],
+    "links": [
+    ]
+}

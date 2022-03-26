@@ -1,0 +1,72 @@
+{
+    "name": "testHomeNegative",
+    "start": 1648316968404,
+    "stop": 1648316970939,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "failed",
+    "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "'an instance of android.widget.TextView and view.getText() with or without transformation to match: is \"A\"' doesn't match the selected view.\nExpected: an instance of android.widget.TextView and view.getText() with or without transformation to match: is \"A\"\n     Got: view.getText() was \"This is home fragment\"\nView Details: MaterialTextView{id=2131231158, res-name=text_home, visibility=VISIBLE, width=1038, height=71, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.constraintlayout.widget.ConstraintLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=21.0, y=767.0, text=This is home fragment, input-type=0, ime-target=false, has-links=false}\n",
+        "trace": "androidx.test.espresso.base.AssertionErrorHandler$AssertionFailedWithCauseError: 'an instance of android.widget.TextView and view.getText() with or without transformation to match: is \"A\"' doesn't match the selected view.\nExpected: an instance of android.widget.TextView and view.getText() with or without transformation to match: is \"A\"\n     Got: view.getText() was \"This is home fragment\"\nView Details: MaterialTextView{id=2131231158, res-name=text_home, visibility=VISIBLE, width=1038, height=71, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.constraintlayout.widget.ConstraintLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=21.0, y=767.0, text=This is home fragment, input-type=0, ime-target=false, has-links=false}\n\n\tat dalvik.system.VMStack.getThreadStackTrace(Native Method)\n\tat java.lang.Thread.getStackTrace(Thread.java:580)\n\tat androidx.test.espresso.base.AssertionErrorHandler.handleSafely(AssertionErrorHandler.java:3)\n\tat androidx.test.espresso.base.AssertionErrorHandler.handleSafely(AssertionErrorHandler.java:1)\n\tat androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)\n\tat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)\n\tat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:5)\n\tat androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)\n\tat ru.kkuzmichev.simpleappforespresso.Lab1Tests.testHomeNegative(Lab1Tests.java:78)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)\n\tat androidx.test.internal.runner.junit4.statement.RunAfters.evaluate(RunAfters.java:61)\n\tat org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)\n\tat androidx.test.rule.GrantPermissionRule$RequestPermissionStatement.evaluate(GrantPermissionRule.java:134)\n\tat org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:61)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:162)\n\tat io.qameta.allure.android.runners.AllureAndroidJUnit4.run(AllureAndroidJUnitRunners.kt:29)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:67)\n\tat androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:58)\n\tat androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:438)\n\tat android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1879)\nCaused by: junit.framework.AssertionFailedError: 'an instance of android.widget.TextView and view.getText() with or without transformation to match: is \"A\"' doesn't match the selected view.\nExpected: an instance of android.widget.TextView and view.getText() with or without transformation to match: is \"A\"\n     Got: view.getText() was \"This is home fragment\"\nView Details: MaterialTextView{id=2131231158, res-name=text_home, visibility=VISIBLE, width=1038, height=71, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.constraintlayout.widget.ConstraintLayout$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=21.0, y=767.0, text=This is home fragment, input-type=0, ime-target=false, has-links=false}\n\n\tat androidx.test.espresso.matcher.ViewMatchers.assertThat(ViewMatchers.java:16)\n\tat androidx.test.espresso.assertion.ViewAssertions$MatchesViewAssertion.check(ViewAssertions.java:7)\n\tat androidx.test.espresso.ViewInteraction$SingleExecutionViewAssertion.check(ViewInteraction.java:2)\n\tat androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:13)\n\tat androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:1)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:237)\n\tat android.os.Handler.handleCallback(Handler.java:739)\n\tat android.os.Handler.dispatchMessage(Handler.java:95)\n\tat android.os.Looper.loop(Looper.java:148)\n\tat android.app.ActivityThread.main(ActivityThread.java:5417)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)\n"
+    },
+    "steps": [
+    ],
+    "attachments": [
+        {
+            "source": "9c446012-64bd-4ccb-ad8c-c65476d7d1c8-attachment",
+            "name": "Lab1Tests#testHomeNegative.png",
+            "type": null
+        }
+    ],
+    "parameters": [
+    ],
+    "uuid": "484b8596-14f0-439b-9e4b-542f0f7c7aa7",
+    "historyId": "b519b48814eb9b82e8269aeb4f42c843",
+    "testCaseId": null,
+    "rerunOf": null,
+    "fullName": "ru.kkuzmichev.simpleappforespresso.Lab1Tests.testHomeNegative",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.kkuzmichev.simpleappforespresso"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.kkuzmichev.simpleappforespresso.Lab1Tests"
+        },
+        {
+            "name": "testMethod",
+            "value": "testHomeNegative"
+        },
+        {
+            "name": "suite",
+            "value": "ru.kkuzmichev.simpleappforespresso.Lab1Tests"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(339)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "feature",
+            "value": "testHomeNegative"
+        }
+    ],
+    "links": [
+    ]
+}
